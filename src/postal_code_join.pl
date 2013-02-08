@@ -83,10 +83,6 @@ unless (write_joined_file($CONFIG{output_joined_file_name}, $geocode_hash, $reco
     die "$0: Unable to write the joined file.  '$CONFIG{output_joined_file_name}'\n";
 }
 
-
-# FIXME
-
-
 exit 0;
 
 
