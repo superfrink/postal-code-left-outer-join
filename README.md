@@ -9,7 +9,9 @@ Usage message:
 
 C:\Documents and Settings\chad\My Documents\code\perl\adam>postal_code_join.exe
 
-  Usage: postal_code_join.exe -igf GEOCODE_FILE -irf RECORD_FILE -ojf JOINED_FILE
+  Usage:
+
+    postal_code_join.exe -igf GEOCODE_FILE -irf RECORD_FILE -ojf JOINED_FILE
 
   Where:
 
