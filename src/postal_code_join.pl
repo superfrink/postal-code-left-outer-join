@@ -3,8 +3,7 @@
 # purpose: perform a SQL "left outer join" operation on two CSV files
 # created: Jan 2009, Chad Clark, chad.clark @ gmail . com
 #
-# SVN root: FIXME
-# $Id$
+# GitHub: https://github.com/superfrink/postal-code-left-outer-join/
 
 use strict;
 use Data::Dumper;
