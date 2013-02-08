@@ -6,11 +6,13 @@ Left-outer-join CSV program for Canadian postal codes
 ======================================================
 
 Usage message:
+
 C:\Documents and Settings\chad\My Documents\code\perl\adam>postal_code_join.exe
 
   Usage: postal_code_join.exe -igf GEOCODE_FILE -irf RECORD_FILE -ojf JOINED_FILE
 
   Where:
+
     -igf     The input geocoding file.  This is a CSV file with three fields:
              { postal code, latt, long }.  (See example below.)
 
@@ -24,10 +26,12 @@ C:\Documents and Settings\chad\My Documents\code\perl\adam>postal_code_join.exe
              file is written.
 
   Options:
+
     -d       Debugging details such as some data structures will be printed.
     -h       Displays this message and exits.
 
   Examples:
+
       postal_code_join.exe -h
       postal_code_join.exe -igf postal_codes.csv -irf survey_data.csv -ojf survey_with_geo.csv
       postal_code_join.exe -igf igf.csv          -irf irf.csv         -ojf ojf.csv
